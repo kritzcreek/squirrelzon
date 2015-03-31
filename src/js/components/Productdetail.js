@@ -12,11 +12,9 @@ var Productdetail = React.createClass({
             style={{width: '100%'}} border="0" alt="Null" />
         </div>
         <div className={mid(7)}>
-            <div className="card-panel white">
-            <span className="teal-text">This is a lot of information about the
+            <p className="teal-text">This is a lot of information about the
               hippest product you will probably never buy. The squirrels are absolutely crazy about these special nuts!
-            </span>
-          </div>
+            </p>
         </div>
       </div>
       <div className="row">
