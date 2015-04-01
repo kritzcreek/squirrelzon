@@ -1,0 +1,31 @@
+{
+  "name": "squirrelzon",
+  "version": "1.0.0",
+  "description": "A Webshop with a twist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "squirrels",
+    "frp",
+    "purescript"
+  ],
+  "author": "kRITZCREEK",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.3.0",
+    "browser-sync": "^2.5.2",
+    "del": "^1.1.1",
+    "gulp-purescript": "^0.3.0",
+    "gulp-webpack": "^1.3.1",
+    "html-webpack-plugin": "^1.1.0",
+    "purescript": "^0.6.9",
+    "purs-loader": "0.0.3",
+    "webpack": "^1.7.3"
+  }
+}

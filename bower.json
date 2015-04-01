@@ -1,0 +1,25 @@
+{
+  "name": "squirrelzon",
+  "version": "1.0.0",
+  "authors": [
+    "kRITZCREEK <christoph.hegemann@gmx.net>"
+  ],
+  "description": "A Webshop with a twist",
+  "main": "index.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "squirrels",
+    "frp",
+    "purescript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
