@@ -1,8 +1,8 @@
 import React from 'react'
-import HelloComponent from 'babel!./components/HelloComponent'
+import Webshop from 'babel!./components/Webshop'
 
 function hello () {
-  React.render(React.createElement(HelloComponent), document.body);
+  React.render(React.createElement(Webshop), document.body);
 }
 
 export default hello

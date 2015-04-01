@@ -1,5 +1,4 @@
 var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: 'babel!./src/js/index.js',
@@ -20,6 +19,5 @@ module.exports = {
       'node_modules',
       'output'
     ]
-  },
-  plugins: [new HtmlWebpackPlugin({title: 'Squirrelzon'})]
+  }
 };

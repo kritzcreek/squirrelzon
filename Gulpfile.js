@@ -20,7 +20,14 @@ gulp.task('compile:purescript', function(){
     .pipe(purescript.pscMake());
 });
 
-gulp.task('build', ['compile:purescript'], function() {
+gulp.task('copy-html', function(){
+  return gulp.src('assets/index.html')
+    .pipe(gulp.dest(destFolder));
+});
+
+gulp.task('copy-assets', ['copy-html']);
+
+gulp.task('build', ['copy-assets', 'compile:purescript'], function() {
   return gulp.src('src/js/index.js')
     .pipe(webpack(require('./webpack.config.js')))
     .pipe(gulp.dest(destFolder));
@@ -40,4 +47,4 @@ gulp.task('serve', function(){
 });
 
 
-gulp.task('default', ['clean', 'build', 'serve']);
+gulp.task('default', ['build', 'serve']);
