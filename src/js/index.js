@@ -1,3 +1,3 @@
-import hello from 'babel!./hello'
+import { main } from 'babel!Squirrelzon.Ui.Render'
 
-hello();
+main();
