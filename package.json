@@ -14,6 +14,7 @@
   "author": "kRITZCREEK",
   "license": "MIT",
   "dependencies": {
+    "alt": "^0.15.2",
     "react": "^0.13.1"
   },
   "devDependencies": {
